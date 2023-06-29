@@ -1,0 +1,59 @@
+
+
+a{
+  text-decoration: none !important;
+
+}
+
+.menu{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: ghostwhite;
+  overflow-x: hidden;
+  transition: all 500ms ease-in-out; 
+  
+}
+
+.menu > h1{
+  padding: 14px 16px !important;  
+  margin: .5rem 0 1.7rem  !important;
+  cursor: pointer;
+}
+.menu > h1 > svg{
+  font-size: 1.6rem !important;
+  /* float: right; */
+  top: 10px;
+  right: 20px;
+  position: absolute;
+
+}
+
+.menu > div { 
+  display: flex;
+  flex-direction: column;
+  padding: 0 !important;
+}
+
+.menu > div > a{
+  padding: 14px 16px;
+  color: #222;
+  width: 100%;
+
+}
+
+.menu > div > a:nth-last-of-type(2n){
+  background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+
